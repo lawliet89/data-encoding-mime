@@ -22,7 +22,7 @@ fn mime_decode(input: &str) -> Result<Vec<u8>, data_encoding::DecodeError> {
     ENCODING.decode(stripped.as_bytes())
 }
 
-/// Splits a given &str into chunks of appropriate length recursively
+/// Splits a given &str into chunks of appropriate length
 /// Note: This assumes each character is one byte -- because we are dealing with output from Base64,
 /// this should be OK. Otherwise, this might panic.
 /// See the section `impl Index<Range<usize>> for str` on
