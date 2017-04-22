@@ -1,0 +1,7 @@
+[package]
+name = "data-encoding-mime"
+version = "0.1.0"
+authors = ["Yong Wen Chua <lawliet89@users.noreply.github.com>"]
+
+[dependencies]
+data-encoding = "2.0.0-rc.1"

@@ -1,0 +1,14 @@
+[root]
+name = "data-encoding-mime"
+version = "0.1.0"
+dependencies = [
+ "data-encoding 2.0.0-rc.1 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "data-encoding"
+version = "2.0.0-rc.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[metadata]
+"checksum data-encoding 2.0.0-rc.1 (registry+https://github.com/rust-lang/crates.io-index)" = "c48768b270ab6458e2fba295bd3593f76d22058945afb5bdc6a1b1436511402b"
